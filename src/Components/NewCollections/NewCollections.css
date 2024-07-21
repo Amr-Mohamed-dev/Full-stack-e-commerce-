@@ -1,0 +1,35 @@
+.new-collections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+  margin-bottom: 10vh;
+}
+
+.new-collections h1 {
+  font-size: 3vw;
+  font-weight: 600;
+  color: #171717;
+}
+
+.new-collections hr {
+  width: 15vw;
+  height: 0.4vh;
+  background-color: #171717;
+  border-radius: #252525;
+}
+/* 
+.collections {
+  margin-top: 5vh;
+  display: flex;
+  gap: 4vw;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+.collections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2vw;
+  margin-top: 5vh;
+}

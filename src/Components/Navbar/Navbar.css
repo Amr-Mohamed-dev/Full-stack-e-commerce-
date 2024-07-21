@@ -14,16 +14,16 @@
 .nav-logo p {
   color: #171717;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 3vw;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 3vw;
   list-style: none;
   color: #626262;
-  font-size: 20px;
+  font-size: 1.1vw;
   font-weight: 500;
 }
 
@@ -32,14 +32,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3px;
+  gap: 0.3vw;
   cursor: pointer;
 }
 
 .nav-menu hr {
   border: none;
-  width: 80%;
-  height: 3px;
+  width: 2.4vw;
+  height: 0.3vh;
   border-radius: 10px;
   background: #ff4141;
 }
@@ -47,16 +47,16 @@
 .nav-login-cart {
   display: flex;
   align-items: center;
-  gap: 45px;
+  gap: 2.5vw;
 }
 
 .nav-login-cart button {
-  width: 157px;
-  height: 58px;
+  width: 9vw;
+  height: 8vh;
   overflow: none;
   border: 1px solid #7a7a7a;
   border-radius: 75px;
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 500;
   background: white;
   cursor: pointer;
@@ -66,16 +66,20 @@
   background: #f3f3f3;
 }
 
+.nav-login-cart img {
+  width: 2.5vw;
+}
+
 .nav-cart-cout {
-    width: 22px;
-    height: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -35px;
-    margin-left: -55px;
-    border-radius: 11px;
-    font-size: 14px;
-    background-color: RED;
-    color: white;
+  width: 1.2vw;
+  height: 2.3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2vw;
+  margin-left: -3vw;
+  border-radius: 11px;
+  font-size: 0.8vw;
+  background-color: RED;
+  color: white;
 }
