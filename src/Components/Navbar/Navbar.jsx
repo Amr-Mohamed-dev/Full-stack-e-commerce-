@@ -44,8 +44,9 @@ const Navbar = () => {
             Login
           </Link>
         </button>
-
-        <img src={cart_icon} alt="cart" />
+        <Link style={{ textDecoration: "none" }} to="/cart">
+          <img src={cart_icon} alt="cart" />
+        </Link>
         <div className="nav-cart-cout">0</div>
       </div>
     </div>
