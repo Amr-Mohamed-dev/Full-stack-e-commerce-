@@ -2,7 +2,7 @@ import React from "react";
 import "./CSS/LoginSignup.css";
 const LoginSignup = () => {
   return (
-    <div className="login-signup">
+    <div className="loginsignup">
       <div className="loginsignup-container">
         <h1>Sign Up</h1>
         <div className="loginsignup-fields">
